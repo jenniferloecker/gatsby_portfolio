@@ -51,17 +51,17 @@ const SideBar = () => {
             </Link>
           </li>
           <li className="menu-items">
-            <Link to="/contact" className="menu-links" activeClassName="active">
-              Contact
-            </Link>
-          </li>
-          <li className="menu-items">
             <Link
               to="/writings"
               className="menu-links"
               activeClassName="active"
             >
               Writings
+            </Link>
+          </li>
+          <li className="menu-items">
+            <Link to="/contact" className="menu-links" activeClassName="active">
+              Contact
             </Link>
           </li>
         </menu>
@@ -78,18 +78,18 @@ const SideBar = () => {
             <button className="navbtn">Projects</button>
           </Link>
           <Link
-            to="/contact"
-            className="mob-menu-items"
-            activeClassName="active"
-          >
-            <button className="navbtn">Contact</button>
-          </Link>
-          <Link
             to="/writings"
             className="mob-menu-items"
             activeClassName="active"
           >
             <button className="navbtn">Writings</button>
+          </Link>
+          <Link
+            to="/contact"
+            className="mob-menu-items"
+            activeClassName="active"
+          >
+            <button className="navbtn">Contact</button>
           </Link>
         </div>
 
