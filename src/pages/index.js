@@ -1,7 +1,6 @@
 import React from "react"
 import SEO from "../components/seo"
 import Default from "../components/default"
-import BlogList from "../components/blogList"
 import About from "../components/about"
 
 const IndexPage = () => {
