@@ -1,1 +1,1 @@
-{"data":{"allMarkdownRemark":{"edges":[{"node":{"fields":{"slug":"/workout_data"},"frontmatter":{"title":"Workout Data","date":"November 10, 2020","description":"Describes the workout data project."}}}]}}}
+{"data":{"allMarkdownRemark":{"edges":[{"node":{"fields":{"slug":"/bowling_post"},"frontmatter":{"title":"Bowling","date":"November 11, 2020","description":"Describes the bowling project."}}},{"node":{"fields":{"slug":"/workout_data"},"frontmatter":{"title":"Workout Data","date":"November 10, 2020","description":"Describes the workout data project."}}}]}}}
