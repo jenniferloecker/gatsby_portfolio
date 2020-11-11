@@ -2,6 +2,7 @@ import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import FrameDetails from "./FrameDetails"
 import Grid from "@material-ui/core/Grid"
+import { observer } from "mobx-react"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -21,4 +22,4 @@ const GameDetails = ({ currentGame }) => {
   )
 }
 
-export default GameDetails
+export default observer(GameDetails)

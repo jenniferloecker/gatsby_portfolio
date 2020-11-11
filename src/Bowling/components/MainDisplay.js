@@ -4,6 +4,7 @@ import ScoreEntry from "./ScoreEntry"
 import { Game } from "../stores/Game"
 import GameOverDisplay from "./GameOverDisplay"
 import { startingFrames } from "../stores/StartingFrames"
+import { observer } from "mobx-react"
 
 let currentGame = Game.create()
 
@@ -23,4 +24,4 @@ const MainDisplay = () => {
   )
 }
 
-export default MainDisplay
+export default observer(MainDisplay)

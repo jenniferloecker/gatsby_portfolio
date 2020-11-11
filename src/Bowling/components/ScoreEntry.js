@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import TextField from "@material-ui/core/TextField"
 import { makeStyles } from "@material-ui/core/styles"
+import { observer } from "mobx-react"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -48,4 +49,4 @@ const ScoreEntry = ({ currentGame }) => {
   )
 }
 
-export default ScoreEntry
+export default observer(ScoreEntry)

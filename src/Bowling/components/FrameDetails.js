@@ -1,5 +1,6 @@
 import React from "react"
 import Grid from "@material-ui/core/Grid"
+import { observer } from "mobx-react"
 
 const FrameDetails = ({ frame, index }) => {
   const frameCumulativeScore = frame.cumulativeScore
@@ -16,4 +17,4 @@ const FrameDetails = ({ frame, index }) => {
   )
 }
 
-export default FrameDetails
+export default observer(FrameDetails)

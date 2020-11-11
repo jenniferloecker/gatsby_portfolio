@@ -11,9 +11,9 @@ const ProjectsPage = () => {
         <Link to="/workout" className="mob-menu-items" activeClassName="active">
           <button className="navbtn">Workout Data</button>
         </Link>
-        {/* <Link to="/bowling" className="mob-menu-items" activeClassName="active">
+        <Link to="/bowling" className="mob-menu-items" activeClassName="active">
           <button className="navbtn">Bowling Game</button>
-        </Link> */}
+        </Link>
       </Post>
     </div>
   )
