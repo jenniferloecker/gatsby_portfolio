@@ -23,3 +23,6 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+.cache/redux/redux.node.state_0
+.cache/redux/redux.node.state_0
+.cache/redux/redux.rest.state
