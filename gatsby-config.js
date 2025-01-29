@@ -4,7 +4,7 @@ module.exports = {
     description: `GatsbyJS starter blog with the Fresh theme.`,
     author: `@mishal23`,
     siteUrl: `https://gatsby-starter-fresh.netlify.app`,
-    about: `Hi! My name is Jennifer Loecker. Welcome to my portfolio! I'm a Full Stack developer with experience in C#/.NET, React/JavaScript, and iOS. I'm open to new opportunities. Have a look around at some of my past work and don't hesitate to contact me! Thanks!`,
+    about: `Hi! My name is Jennifer Loecker. Welcome to my portfolio! I'm a Full Stack developer with experience in C#/.NET, React/JavaScript/TypeScript, React Native, and iOS. I'm open to new opportunities. Have a look around at some of my past work and don't hesitate to contact me! Thanks!`,
     keywords: [
       "mishal23",
       "Mishal Shah",
